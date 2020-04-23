@@ -7,6 +7,7 @@ import Home from "./contents/Home";
 import About from "./contents/About";
 import Skills from "./contents/Skills";
 import Contact from "./contents/Contact";
+import Project from "./contents/Project";
 
 export default function App() {
   return (
@@ -28,6 +29,10 @@ export default function App() {
 
         <Route path="/contact">
           <Contact />
+        </Route>
+
+        <Route path="/Project">
+          <Project />
         </Route>
       </div>
     </Router>
