@@ -6,6 +6,7 @@ class Navitem extends Component {
     return (
       <li id={this.props.item}>
         <Link
+          style={{ textDecoration: "none", color: "white" }}
           to={this.props.tolink}
           onClick={this.props.active.bind(this, this.props.item)}
         >

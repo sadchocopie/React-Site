@@ -1,17 +1,12 @@
 import React, { Component } from "react";
+import { SocialIcon } from "react-social-icons";
 class Social extends Component {
   render() {
     return (
       <div className="social">
-        <a href="https://github.com/sadchocopie" target="_blank">
-          <i className="fab fa-github" />
-        </a>
-        <a href="https://Linkedin.com/in/harrietwang" target="_blank">
-          <i className="fab fa-linkedin-in" />
-        </a>
-        <a href="https://dribbble.com/harrietwang" target="_blank">
-          <i className="fab fa-dribbble" />
-        </a>
+        <SocialIcon className="icon" url="http://github.com/sadchocopie" />
+        <SocialIcon className="icon" url="http://linkedin.com/in/harrietwang" />
+        <SocialIcon className="icon" url="http://dribbble.com/harrietwang" />
       </div>
     );
   }
